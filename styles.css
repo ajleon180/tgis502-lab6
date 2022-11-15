@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #map {
+    width: auto;
+    height: 98vh;
+ }
+
+h1 {
+   font-size: large;
+   font-weight: bold;
+}
+
+#legend {
+   background-color: #ffffff;
+   border-radius: 3px;
+   bottom: 50px;
+   right: 18px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+   font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+   padding: 10px;
+   position: absolute;
+   z-index: 1;
+}
+
+#legend h4 {
+margin: 0 0 10px;
+}
+
+#legend hr {
+   width: 16px;
+   transform: rotate(45deg);
+   float: left;
+   margin-right: 10px
+}
+
+#legend ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.class1 {
+   border-top: 3px solid red;
+}
+.class2 {
+   border-top: 3px solid orange
+}
+
+.class3{
+   border-top: 3px solid yellow
+}
+
+.boundary{
+   border-top: 4px solid black;
+   opacity: .6
+}
+
+#title {
+   background-color: #b2f77a85;
+   position: absolute;
+   top: 15px;
+   left: 15px;
+   padding: 0px 20px 0px 20px;
+   font: 48px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   z-index: 1;
+}
+
+#information {
+   background-color: #b2f77a85;
+   position: absolute;
+   width: 365px;
+   bottom: 90px;
+   left: 15px;
+   padding: 0px 10px 0px 10px;
+   font: 16px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+   z-index: 1;
+}

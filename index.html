@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Big Bend National Park Trail Map</title>
+        <!--Add Mapbox libraries-->
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+        <!--Link to CSS Stylesheet-->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div id="map"></div>
+        <script type="text/javascript" src="scripts.js"></script>
+
+        <div id='legend'>
+            <h4>Big Bend National Park Trails</h4>
+            <ul>
+                <li><hr class="class1"> Class 1 trail: Minimally Developed</li>
+                <li><hr class="class2"> Class 2 trail: Moderately Developed</li>
+                <li><hr class="class3"> Class 3 trail: Developed</li>
+                <li><hr class="boundary"> Park boundary</li>
+            </ul>
+        </div>
+
+        <div id='title'>
+            <p>Big Bend National Park Trail Map</p>
+        </div>
+
+        <div id='information'>
+            <p>This map shows the trail system within Big Bend National Park.  Each trail is classified by the trail's condition, with higher class trails having a greater degree of development.  Please click on a trail to see the trail's class and length.</p>
+        </div>
+
+    </body>
+</html>
